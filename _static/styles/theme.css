@@ -31,7 +31,7 @@
   **/
   /* These are adapted from https://systemfontstack.com/ */
   --pst-font-family-base-system: -apple-system, BlinkMacSystemFont, Segoe UI,
-    "Anonymous Pro", Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    "Helvetica Neue", Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol;
   --pst-font-family-monospace-system: "SFMono-Regular", Menlo, Consolas, Monaco,
     Liberation Mono, Lucida Console, monospace;
