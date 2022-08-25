@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>python &#8212; Xin.</title>
+    <title> &#8212; Xin.</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -155,19 +155,55 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../modelling/index.html">
+   rhino modelling
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../modelling/rhino/RhinoCommon.html">
+     RhinoCommon
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../modelling/rhino/RhinoPython.html">
+     RhinoPython
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../modelling/rhino/GhPython.html">
+     Gypython
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../modelling/rhino/HopsGH.html">
+     Hops for Grasshopper
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../modelling/rhino/RhinoInside.html">
+     Rhino.Inside
+    </a>
+   </li>
+  </ul>
+ </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="../index.html">
    programming
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul class="current">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     python
     </a>
    </li>
    <li class="toctree-l2">
@@ -186,8 +222,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../math/index.html">
    applied math
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -203,8 +239,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../VR/index.html">
    virtual reality
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -272,6 +308,35 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/XinZhouu//master?urlpath=tree/docs/study_archive/programming/language/python.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../../../_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -339,7 +404,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../../_sources/study_archive/programming/language/python.md"
+        <a href="../../../_sources/study_archive/programming/language/python.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -350,7 +415,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -376,23 +441,70 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>python</h1>
+                <h1></h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -400,8 +512,123 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="python">
-<h1>python<a class="headerlink" href="#python" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1><a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h1>
+<span style="font-family:'Ubuntu Medium'; font-size: 2.5em;">
+Python Programming
+</span>
+<section id="id2">
+<h2><a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
+<span style="font-family:'Ubuntu'; font-size: 2em;">
+Decorator
+</span><section id="id3">
+<h3><a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
+<span style="font-family:'Ubuntu Light'; font-size: 1.7em;">
+Function Decorator
+</span><table>
+<tr>
+<th>precedent</th>
+<th>equivalent1</th>
+<th>equivalent2</th>
+</tr>
+<tr>
+<td>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">repeat</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+    <span class="n">fn</span><span class="p">()</span>
+    <span class="n">fn</span><span class="p">()</span>
+ 
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
+    
+<span class="n">repeat</span><span class="p">(</span><span class="n">hello_world</span><span class="p">)</span>
+</pre></div>
+</div>
+</td>
+<td>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">repeat_decorator</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">decorated_fn</span><span class="p">():</span>
+        <span class="n">fn</span><span class="p">()</span>
+        <span class="n">fn</span><span class="p">()</span>
+    <span class="c1"># returns a function</span>
+    <span class="k">return</span> <span class="n">decorated_fn</span>
+ 
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
+ 
+<span class="n">hello_world_twice</span> <span class="o">=</span> <span class="n">repeat_decorator</span><span class="p">(</span><span class="n">hello_world</span><span class="p">)</span>
+<span class="n">hello_world_twice</span><span class="p">()</span>
+</pre></div>
+</div>
+</td>
+<td>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="k">def</span> <span class="nf">repeat_decorator</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">decorated_fn</span><span class="p">():</span>
+        <span class="n">fn</span><span class="p">()</span>
+        <span class="n">fn</span><span class="p">()</span>
+    <span class="c1"># returns a function</span>
+    <span class="k">return</span> <span class="n">decorated_fn</span>
+ 
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
+ 
+<span class="n">hello_world</span> <span class="o">=</span> <span class="n">repeat_decorator</span><span class="p">(</span><span class="n">hello_world</span><span class="p">)</span>
+ 
+<span class="c1"># call the function</span>
+<span class="n">hello_world</span><span class="p">()</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</table><table>
+<tr>
+<th>decorator</th>
+<th>decorator with arg</th>
+</tr>
+<tr>
+<td>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">repeat_decorator</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">decorated_fn</span><span class="p">():</span>
+        <span class="n">fn</span><span class="p">()</span>
+        <span class="n">fn</span><span class="p">()</span>
+    <span class="c1"># returns a function</span>
+    <span class="k">return</span> <span class="n">decorated_fn</span>
+ 
+<span class="c1"># using the decorator on hello_world function</span>
+<span class="nd">@repeat_decorator</span>
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
+ 
+<span class="c1"># call the function</span>
+<span class="n">hello_world</span><span class="p">()</span>
+</pre></div>
+</div>
+</td>
+<td>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">repeat_decorator</span><span class="p">(</span><span class="n">num_repeats</span> <span class="o">=</span> <span class="mi">2</span><span class="p">):</span>
+    <span class="c1"># repeat_decorator should return a function that&#39;s a decorator</span>
+    <span class="k">def</span> <span class="nf">inner_decorator</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">decorated_fn</span><span class="p">():</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_repeats</span><span class="p">):</span>
+                <span class="n">fn</span><span class="p">()</span>
+        <span class="c1"># return the new function</span>
+        <span class="k">return</span> <span class="n">decorated_fn</span>
+    <span class="c1"># return the decorator that actually takes the function in as the input</span>
+    <span class="k">return</span> <span class="n">inner_decorator</span>
+ 
+<span class="c1"># use the decorator with num_repeats argument set as 5 to repeat the function call 5 times</span>
+<span class="nd">@repeat_decorator</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
+ 
+<span class="c1"># call the function</span>
+<span class="n">hello_world</span><span class="p">()</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</table></section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -417,7 +644,7 @@ title="Print to PDF"
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./study_archive/programming/language"
+            path: "./study_archive\programming\language"
         },
         predefinedOutput: true
     }
